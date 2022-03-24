@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import theme1 from "./themes/1.json"
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(bodyParser.json());
