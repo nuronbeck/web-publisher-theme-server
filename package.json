@@ -8,7 +8,7 @@
     "start": "node --experimental-json-modules index.js",
     "dev": "nodemon --experimental-json-modules index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": ""
+    "heroku-postbuild": "ng build --aot --target=production"
   },
   "repository": {
     "type": "git",
