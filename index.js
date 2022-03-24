@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import theme1 from "./themes/1.json"
 
 const app = express();
-const port = 443;
+const port = 8080;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -15,7 +15,7 @@ app.get('/api/theme/default', (req, res) => {
   res.status(200).send(theme1);
 })
 
-app.listen(443, () => {
+app.listen(port, () => {
   console.log(`Listening on port ${port}`)
   console.log(`http://localhost:${port}`)
 })
