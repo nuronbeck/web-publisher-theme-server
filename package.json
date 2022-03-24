@@ -30,7 +30,6 @@
     "express": "^4.17.3"
   },
   "devDependencies": {
-    "@vercel/node": "^1.14.0",
     "nodemon": "^2.0.15"
   },
   "engines": {
