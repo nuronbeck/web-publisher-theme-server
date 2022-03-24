@@ -1,0 +1,35 @@
+{
+  "name": "web-publisher-theme-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "dev": "nodemon --experimental-json-modules index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuronbeck/web-publisher-theme-server.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "example"
+  ],
+  "author": "Nurbek Ismoilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuronbeck/web-publisher-theme-server/issues"
+  },
+  "homepage": "https://github.com/nuronbeck/web-publisher-theme-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

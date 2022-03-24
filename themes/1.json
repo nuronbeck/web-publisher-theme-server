@@ -1,0 +1,72 @@
+{
+  "id": "1",
+  "version": "1",
+  "name": "Dinamic theme",
+
+  "global": {
+    "logo": {
+      "url": "https://www.gotrmc.org/Portals/AZ-8-101/adam/SponsorSlider/ewCJ7_oWA0KIznKxYVmtUA/SponsorLogo/YourLogoHere.png",
+      "width": "100px"
+    },
+    "colors": {
+      "primary": "#01173C",
+      "secondary": "#205BFB",
+      "warning": "#fd6a02",
+      "danger": "#d0021b",
+      "info": "#149eb5",
+      "success": "#008000"
+    }
+  },
+
+  "components": {
+    "header": {
+      "quickLinks": {
+        "backgroundColor": "#EEEEEE",
+        "link": {
+          "color": "#011853",
+          "backgroundColor": "transparent",
+          "colorHover": "#fff",
+          "backgroundColorHover": "#41BDF2"
+        }
+      },
+      "siteLabel": {
+        "color": "#fff"
+      },
+      "myListPanelButton": {
+        "color": "#01173C",
+        "backgroundColor": "transparent",
+        "colorHover": "#fff",
+        "backgroundColorHover": "#41BDF2"
+      },
+      "backgroundColor": "#01173C"
+    },
+    "breadcrumbs": {
+      "color": "#011853",
+      "backgroundColor": "#EEEEEE"
+    },
+    "browseBanner": {
+      "color": "#01173C",
+      "backgroundColor": "#41BDF2"
+    },
+    "footer": {
+      "color": "#fff",
+      "backgroundColor": "#01173C",
+      "separator": {
+        "color": "#2E9FDF"
+      },
+      "links": {
+        "color": "#fff",
+        "backgroundColor": "transparent",
+        "colorHover": "#fff",
+        "backgroundColorHover": "#2E9FDF"
+      },
+      "poweredBy": {
+        "color": "#41BDF2",
+        "link": {
+          "color": "#fff",
+          "colorHover": "#41BDF2"
+        }
+      }
+    }
+  }
+}
