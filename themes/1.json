@@ -10,7 +10,7 @@
     },
     "colors": {
       "primary": "#01173C",
-      "secondary": "#205BFB",
+      "secondary": "#205B`FB",
       "warning": "#fd6a02",
       "danger": "#d0021b",
       "info": "#149eb5",
@@ -65,6 +65,43 @@
         "link": {
           "color": "#fff",
           "colorHover": "#41BDF2"
+        }
+      }
+    },
+    "myListPanel": {
+      "backgroundColor": "#fff",
+      "title": {
+        "color": "#011853"
+      },
+      "viewAllButton": {
+        "color": "#011853"
+      },
+      "item": {
+        "backgroundColor": "transparent",
+        "backgroundColorHover": "rgba(1,23,60,0.1)",
+        "badge": {
+          "color": "#fff",
+          "backgroundColor": "#011853"
+        },
+        "title": {
+          "color": "#011853"
+        },
+        "code": {
+          "color": "#011853"
+        }
+      },
+      "emptyState": {
+        "icon": {
+          "color": "#011853"
+        },
+        "message": {
+          "color": "#011853"
+        },
+        "divider": {
+          "color": "#011853"
+        },
+        "description": {
+          "color": "#011853"
         }
       }
     }

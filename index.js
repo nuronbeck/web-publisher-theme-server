@@ -1,7 +1,11 @@
 import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
-import theme1 from "./themes/1.json"
+
+// Themes
+import theme1 from "./themes/1.json";
+import theme2 from "./themes/2.json";
+const defaultTheme = 2;
 
 const app = express();
 const port = process.env.PORT || 8080;
@@ -11,8 +15,7 @@ app.use(bodyParser.json());
 
 
 app.get('/api/theme/default', (req, res) => {
-
-  res.status(200).send(theme1);
+  res.status(200).send(eval(`theme${defaultTheme}`));
 })
 
 app.listen(port, () => {

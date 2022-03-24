@@ -1,0 +1,109 @@
+{
+  "id": "2",
+  "version": "2",
+  "name": "Dinamic theme 2",
+
+  "global": {
+    "logo": {
+      "url": "https://wnyregion.makerfaire.com/wp-content/uploads/sites/137/2018/03/yourlogo.jpg",
+      "width": "120px"
+    },
+    "colors": {
+      "primary": "#31C557",
+      "secondary": "#F8C634",
+      "warning": "#fd6a02",
+      "danger": "#d0021b",
+      "info": "#149eb5",
+      "success": "#008000"
+    }
+  },
+
+  "components": {
+    "header": {
+      "quickLinks": {
+        "backgroundColor": "#D2FEB0",
+        "link": {
+          "color": "#3C2BB5",
+          "backgroundColor": "transparent",
+          "colorHover": "#3C2BB5",
+          "backgroundColorHover": "#F8C634"
+        }
+      },
+      "siteLabel": {
+        "color": "#3C2BB5"
+      },
+      "myListPanelButton": {
+        "color": "#3C2BB5",
+        "backgroundColor": "transparent",
+        "colorHover": "#3C2BB5",
+        "backgroundColorHover": "#F8C634"
+      },
+      "backgroundColor": "#31C557"
+    },
+    "breadcrumbs": {
+      "color": "#3C2BB5",
+      "backgroundColor": "#D2FEB0"
+    },
+    "browseBanner": {
+      "color": "#31C557",
+      "backgroundColor": "#41BDF2"
+    },
+    "footer": {
+      "color": "#3C2BB5",
+      "backgroundColor": "#31C557",
+      "separator": {
+        "color": "#F8C634"
+      },
+      "links": {
+        "color": "#3C2BB5",
+        "backgroundColor": "transparent",
+        "colorHover": "#3C2BB5",
+        "backgroundColorHover": "#F8C634"
+      },
+      "poweredBy": {
+        "color": "#D2FEB0",
+        "link": {
+          "color": "#D2FEB0",
+          "colorHover": "#3C2BB5"
+        }
+      }
+    },
+    "myListPanel": {
+      "backgroundColor": "#fff",
+      "title": {
+        "color": "#3C2BB5"
+      },
+      "viewAllButton": {
+        "color": "#3C2BB5"
+      },
+      "item": {
+        "backgroundColor": "transparent",
+        "backgroundColorHover": "#D2FEB0",
+        "badge": {
+          "color": "#fff",
+          "backgroundColor": "#3C2BB5"
+        },
+        "title": {
+          "color": "#3C2BB5"
+        },
+        "code": {
+          "color": "#3C2BB5"
+        }
+      },
+      "emptyState": {
+        "icon": {
+          "color": "#3C2BB5"
+        },
+        "message": {
+          "color": "#3C2BB5"
+        },
+        "divider": {
+          "color": "#D2FEB0"
+        },
+        "description": {
+          "color": "#3C2BB5"
+        }
+      }
+    }
+  }
+}
